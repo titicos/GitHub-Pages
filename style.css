@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgba(231, 40, 231, 0.932);
+}
+header{
+
+    height: 180px;
+    background-color: rgba(70, 69, 69, 0.89);
+    position: relative;
+
+   
+   
+}
+
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    
+}
+
+h1{
+    position: relative;
+    color: rgb(242, 237, 245);
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Zen Antique', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.menu{
+    height: 100px;
+    background-color: rgba(231, 40, 231, 0.719);
+    
+}
+
+.menu ul{
+    padding-top: 40px;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+main{
+  
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+main >h1{
+    color: turquoise;
+}
+main > p{
+    padding: 30px;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+div{
+    width: 520px;
+    height: 380px;
+    background-color: red;
+    margin: auto;
+}
+
+
+
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
